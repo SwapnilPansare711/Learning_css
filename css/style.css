@@ -9,12 +9,80 @@ h4{
     background-color: cadetblue;
     font-size: 40px;
 }
-H5{
+h5{
     color: indigo;
     background-color: aliceblue;
-    font-size: 70PX;
+    font-size: 50PX;
 }
 T{
    color: blue;
    background-color: blanchedalmond;
+}
+
+.heading{
+    color: red;
+    background-color: yellow;
+}
+
+.heading1{
+    color: blue;
+    background-color: chartreuse;
+}
+.para{
+    color: gold;
+    background-color: magenta;
+}
+.head{
+    color: aqua;
+    background-color: chocolate;
+}
+#head{
+    color: rgb(237, 11, 158);
+    background-color: rgb(11, 164, 240);
+    font-size: 50px;
+}
+.practice{
+    color: crimson;
+}
+
+#practice{
+    color: blue;
+}
+.practice_1{
+    font-size:larger;
+}
+#practice_1{
+    font-size: small;
+}
+.t_transform_upper{
+    text-transform: uppercase;
+}
+.t_transform_lower{
+    text-transform: lowercase;
+}
+.t_transform_capitalize{
+    text-transform: capitalize;
+}
+.t_center{
+    text-align: center;
+}
+.t_right{
+    text-align: right;
+}
+
+.t_decor_underline{
+    text-decoration: underline;
+}
+
+.t_decor_overline{
+    text-decoration: overline;
+}
+.t_decor_linethrough{
+    text-decoration: line-through;
+}
+.t_decor{
+    text-decoration: line-through overline underline;
+}
+.t_indent{
+    text-indent: 100px;
 }
