@@ -86,3 +86,44 @@ T{
 .t_indent{
     text-indent: 100px;
 }
+.t_word_space{
+    word-spacing: 80px;
+}
+.t_letter_space{
+    letter-spacing: 15px;
+}
+.para_line_height{
+    line-height: 45px;
+}
+
+.t_shadow{
+    color: black;
+     text-shadow: 0px 5px 5px gray;
+     font-size: 60px;
+}
+.t_shadow1{
+    color: rgb(220, 20, 197);
+    text-shadow: 3px 3px 6px yellow;
+    font-size: 50px;
+}
+.t_shadow2{
+    color: aqua;
+    text-shadow: 5px 2px 6px gold;
+    font-size:70px ;
+}
+.img_b_shadow{
+    box-shadow: 4px 6px 8px red;
+    width: 200px;
+    height: 200px;
+}
+.img_d_shadow{
+    filter:drop-shadow(5px 6px 7px red);
+    width: 200px;
+    height: 200px;
+}
+.img2_d_shadow{
+    filter: drop-shadow(5px 5px 5px gold);
+}
+.img3_d_shadow{
+    filter: drop-shadow(3px 3px 2px blue);
+}
