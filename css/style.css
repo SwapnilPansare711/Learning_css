@@ -257,6 +257,9 @@ h1{
     font-size:40px ;
     margin: 10px;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .flex_container{
     display: flex;
@@ -266,8 +269,85 @@ h1{
     justify-content: space-around;
     
 }
-h1{
-    text-align: center;
-    font-size: 30px;
-
+/* pseduo class */
+h1:hover{
+    color: blue;
+    background-color: burlywood;
+    font-size: 50px;
+    text-shadow: 5px 6px 2px red;
+    text-decoration: underline;
+}
+.heading_1:hover{
+    color: cyan;
+    
+}
+h3:active{
+    color: red;
+    font-size: 60px;
+    font-family: cursive;
+    cursor: pointer;
+}
+input:focus{
+    background-color: black;
+    color: white;
+    border: 10px solid red;
+}
+a:visited{
+    color: rgb(247, 31, 214);
+}
+p::first-letter{
+    color: red;
+    font-size: 40px;
+}
+p::first-line{
+    color: blue;
+}
+::selection{
+    color: red;
+    background-color: yellow;
+}
+.box{
+    background-color: blueviolet;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    /* margin-left:20px ;
+    margin-right: 20px; */
+    margin-bottom: 20px;
+    transition: transform 2s linear 500ms;
+    
+}
+    
+.container{
+    display: flex;
+    flex-wrap: ;
+    justify-content: center;
+    padding: 10px;
+}
+.box11:hover{
+    transform: translate(125px,125px);
+}
+.box22:hover{
+    transform:translateX(40px) ;
+}
+.box33:hover{
+    transform: translateY(50px);
+}
+.box44:hover{
+    transform:rotate(1200deg);
+    background-color: crimson;
+}
+.box55:hover{
+    transform: skewX(50deg);
+}
+.box66:hover{
+   transform: scale(5);
+}
+.box77:hover{
+    transform: rotate(360deg) scale(1.2) translateY(50px);
 }
